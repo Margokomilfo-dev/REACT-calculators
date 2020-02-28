@@ -1,0 +1,31 @@
+.app_wrapper {
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    margin-top: 50px;
+}
+.header {
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+.calc {
+    border: 1px solid red;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+input {
+    height: 30px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.result {
+    font-weight: 500;
+    font-size: 18px;
+}
+.result span {
+    color: red;
+    font-size: 18px;
+}
