@@ -36,12 +36,9 @@ class Calc extends React.Component {
         let {value2, operation} = this.state
         //let value2 = this.state.value2
         //let operation = this.state.operation
-        this.result(value1, value2,operation)
-      }
-      
 
-      
-      
+        this.result(value1, value2, operation)
+      }      
     }
 
     this.input2Change = (e) => {
